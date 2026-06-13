@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Bahamas SME Cybersecurity Awareness | Quiz & Survey</title>
+  <link href="./css/styles.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+<div class="container">
+  <div class="hero">
+    <h1>🇧🇸 Cyber Safe Bahamas</h1>
+    <div class="tagline">SME Cybersecurity Awareness & Survey</div>
+    <p>Test your knowledge, learn real threats, and help us understand how protected Bahamian small businesses really are.</p>
+  </div>
+
+  <div class="progress-section">
+    <span class="progress-text" id="progressCount">0 / 15 answered</span>
+    <div class="progress-bar-bg"><div class="progress-fill" id="progressFill"></div></div>
+  </div>
+
+  <form id="quizForm">
+    <!-- SECTION A: DEMOGRAPHICS (3 questions) -->
+    <div class="question-card" data-qid="1">
+      <div class="q-title"><span class="q-num">Q1</span> What is your role in your company?</div>
+      <div class="options">
+        <div class="option-row"><input type="radio" name="q1" value="Owner / Partner"> <label>Owner / Partner</label></div>
+        <div class="option-row"><input type="radio" name="q1" value="Manager / Supervisor"> <label>Manager / Supervisor</label></div>
+        <div class="option-row"><input type="radio" name="q1" value="IT staff"> <label>IT staff</label></div>
+        <div class="option-row"><input type="radio" name="q1" value="General employee"> <label>General employee</label></div>
+        <div class="option-row"><input type="radio" name="q1" value="Other"> <label>Other</label></div>
+      </div>
+    </div>
+
+    <div class="question-card" data-qid="2">
+      <div class="q-title"><span class="q-num">Q2</span> How many employees does your company have?</div>
+      <div class="options">
+        <div class="option-row"><input type="radio" name="q2" value="1–5"> <label>1–5</label></div>
+        <div class="option-row"><input type="radio" name="q2" value="6–20"> <label>6–20</label></div>
+        <div class="option-row"><input type="radio" name="q2" value="21–100"> <label>21–100</label></div>
+        <div class="option-row"><input type="radio" name="q2" value="100+"> <label>100+</label></div>
+      </div>
+    </div>
+
+    <div class="question-card" data-qid="3">
+      <div class="q-title"><span class="q-num">Q3</span> Which industry best describes your business?</div>
+      <div class="options">
+        <div class="option-row"><input type="radio" name="q3" value="Tourism / Hospitality"> <label>Tourism / Hospitality</label></div>
+        <div class="option-row"><input type="radio" name="q3" value="Financial services / Insurance"> <label>Financial services / Insurance</label></div>
+        <div class="option-row"><input type="radio" name="q3" value="Retail / Wholesale"> <label>Retail / Wholesale</label></div>
+        <div class="option-row"><input type="radio" name="q3" value="Construction / Trades"> <label>Construction / Trades</label></div>
+        <div class="option-row"><input type="radio" name="q3" value="Professional services"> <label>Professional services (legal, accounting, etc.)</label></div>
+        <div class="option-row"><input type="radio" name="q3" value="Healthcare"> <label>Healthcare</label></div>
+        <div class="option-row"><input type="radio" name="q3" value="Education"> <label>Education</label></div>
+        <div class="option-row"><input type="radio" name="q3" value="Other"> <label>Other</label></div>
+      </div>
+    </div>
+
+    <!--SECTION B: THREAT AWARENESS & BEHAVIOR (Q4 to Q11) -->
+    <div class="question-card" data-qid="4">
+      <div class="q-title"><span class="q-num">Q4</span> Phishing & Business Email Compromise</div>
+      <div class="did-you-know"><strong>📧 Did you know?</strong> In The Bahamas, criminals send fake emails pretending to be local banks, suppliers, or executives to steal logins or money.</div>
+      <div class="options">
+        <div class="option-row"><input type="radio" name="q4" value="Yes, several times"> <label>Yes, several times</label></div>
+        <div class="option-row"><input type="radio" name="q4" value="Yes, once or twice"> <label>Yes, once or twice</label></div>
+        <div class="option-row"><input type="radio" name="q4" value="Not sure"> <label>Not sure</label></div>
+        <div class="option-row"><input type="radio" name="q4" value="No, never"> <label>No, never</label></div>
+      </div>
+    </div>
+
+    <div class="question-card" data-qid="5">
+      <div class="q-title"><span class="q-num">Q5</span> Spotting a fake email</div>
+      <div class="did-you-know"><strong>⚠️ True or false:</strong> If an email has the official logo of a Bahamian company, it is definitely safe.</div>
+      <div class="options">
+        <div class="option-row"><input type="radio" name="q5" value="True"> <label>True</label></div>
+        <div class="option-row"><input type="radio" name="q5" value="False"> <label>False (correct answer)</label></div>
+      </div>
+    </div>
+
+    <div class="question-card" data-qid="6">
+      <div class="q-title"><span class="q-num">Q6</span> Ransomware & Backups</div>
+      <div class="did-you-know"><strong>💾 Did you know?</strong> Ransomware locks your files. The best defense is offline backups.</div>
+      <div class="options">
+        <div class="option-row"><input type="radio" name="q6" value="Daily or weekly backup to offline/unconnected drive"> <label>Daily or weekly backup to a device NOT always connected (offline backup)</label></div>
+        <div class="option-row"><input type="radio" name="q6" value="Backup to same computer/network (risky)"> <label>Backups run, but to the same computer or network (risky)</label></div>
+        <div class="option-row"><input type="radio" name="q6" value="Rarely or never back up"> <label>We rarely or never back up</label></div>
+        <div class="option-row"><input type="radio" name="q6" value="I don't know"> <label>I don't know</label></div>
+      </div>
+    </div>
+
+    <div class="question-card" data-qid="7">
+      <div class="q-title"><span class="q-num">Q7</span> Password habits</div>
+      <div class="did-you-know"><strong>🔐 Did you know?</strong> Reusing the same password for email and banking is dangerous — criminals try them everywhere.</div>
+      <div class="options">
+        <div class="option-row"><input type="radio" name="q7" value="Password manager (Bitwarden, 1Password etc)"> <label>We use a password manager (e.g., Bitwarden, 1Password)</label></div>
+        <div class="option-row"><input type="radio" name="q7" value="Written notebook or shared file"> <label>We write passwords in a notebook or shared file</label></div>
+        <div class="option-row"><input type="radio" name="q7" value="Memorized but simple/reused"> <label>We memorize them, but many are simple or reused</label></div>
+        <div class="option-row"><input type="radio" name="q7" value="2FA on important accounts"> <label>We use two-factor authentication (2FA) on important accounts</label></div>
+      </div>
+    </div>
+
+    <div class="question-card" data-qid="8">
+      <div class="q-title"><span class="q-num">Q8</span> Public Wi-Fi risk</div>
+      <div class="did-you-know"><strong>📡 Did you know?</strong> Public Wi-Fi at Bahamian coffee shops, airports or hotels is often unencrypted. Criminals can intercept work logins.</div>
+      <div class="options">
+        <div class="option-row"><input type="radio" name="q8" value="Company VPN always required"> <label>Company VPN always required</label></div>
+        <div class="option-row"><input type="radio" name="q8" value="Sometimes use public Wi-Fi without VPN"> <label>Sometimes use public Wi-Fi without a VPN</label></div>
+        <div class="option-row"><input type="radio" name="q8" value="Personal mobile hotspot only"> <label>Use personal mobile hotspot only</label></div>
+        <div class="option-row"><input type="radio" name="q8" value="No remote work / not sure"> <label>No remote work / not sure</label></div>
+      </div>
+    </div>
+
+    <div class="question-card" data-qid="9">
+      <div class="q-title"><span class="q-num">Q9</span> Social engineering by phone</div>
+      <div class="did-you-know"><strong>📞 Did you know?</strong> Attackers call Bahamian businesses pretending to be "IT support" or "government auditor" to trick staff.</div>
+      <div class="options">
+        <div class="option-row"><input type="radio" name="q9" value="Yes, multiple times"> <label>Yes, multiple times</label></div>
+        <div class="option-row"><input type="radio" name="q9" value="Yes, once"> <label>Yes, once</label></div>
+        <div class="option-row"><input type="radio" name="q9" value="Not sure"> <label>Not sure</label></div>
+        <div class="option-row"><input type="radio" name="q9" value="No, never"> <label>No, never</label></div>
+      </div>
+    </div>
+
+    <div class="question-card" data-qid="10">
+      <div class="q-title"><span class="q-num">Q10</span> Verification procedure</div>
+      <div class="did-you-know"><strong>✅ Stop – Call – Verify:</strong> Always hang up and call back on a known number before sending money or giving access.</div>
+      <div class="options">
+        <div class="option-row"><input type="radio" name="q10" value="Yes, written and all staff trained"> <label>Yes, written and all staff trained</label></div>
+        <div class="option-row"><input type="radio" name="q10" value="Verbally discussed but not written"> <label>Verbally discussed but not written</label></div>
+        <div class="option-row"><input type="radio" name="q10" value="No procedure"> <label>No procedure</label></div>
+        <div class="option-row"><input type="radio" name="q10" value="Not sure"> <label>Not sure</label></div>
+      </div>
+    </div>
+
+    <div class="question-card" data-qid="11">
+      <div class="q-title"><span class="q-num">Q11</span> Software updates</div>
+      <div class="did-you-know"><strong>🖥️ Did you know?</strong> Delaying updates is like leaving your office door unlocked – many attacks exploit old software.</div>
+      <div class="options">
+        <div class="option-row"><input type="radio" name="q11" value="Automatic updates enabled on all devices"> <label>Automatic updates enabled on all devices</label></div>
+        <div class="option-row"><input type="radio" name="q11" value="Someone manually installs occasionally"> <label>Someone manually installs updates occasionally</label></div>
+        <div class="option-row"><input type="radio" name="q11" value="Often ignored or postponed"> <label>Updates are often ignored or postponed</label></div>
+        <div class="option-row"><input type="radio" name="q11" value="I don't know"> <label>I don't know</label></div>
+      </div>
+    </div>
+
+    <!-- SECTION C: ATTITUDES & READINESS (Likert Q12 to Q15)  -->
+    <div class="question-card" data-qid="12">
+      <div class="q-title"><span class="q-num">Q12</span> Attitude: Target risk</div>
+      <div class="did-you-know"><strong>📊 Rate your agreement:</strong> “Cybercriminals are unlikely to target my business because we are small.”</div>
+      <div class="likert-grid">
+        <div style="display: flex; gap: 1rem; flex-wrap: wrap; justify-content: space-between;">
+          <label style="display:inline-flex; gap:5px;"><input type="radio" name="q12" value="1"> 1 (Strongly Disagree)</label>
+          <label style="display:inline-flex; gap:5px;"><input type="radio" name="q12" value="2"> 2</label>
+          <label style="display:inline-flex; gap:5px;"><input type="radio" name="q12" value="3"> 3</label>
+          <label style="display:inline-flex; gap:5px;"><input type="radio" name="q12" value="4"> 4</label>
+          <label style="display:inline-flex; gap:5px;"><input type="radio" name="q12" value="5"> 5 (Strongly Agree)</label>
+        </div>
+      </div>
+    </div>
+
+    <div class="question-card" data-qid="13">
+      <div class="q-title"><span class="q-num">Q13</span> Readiness: Ransomware response</div>
+      <div class="did-you-know"><strong>🛡️ Statement:</strong> “I would know exactly what to do immediately if a ransomware message appeared on our computers.”</div>
+      <div class="likert-grid">
+        <div style="display: flex; gap: 1rem; flex-wrap: wrap;"><label><input type="radio" name="q13" value="1"> 1 (Strongly Disagree)</label><label><input type="radio" name="q13" value="2"> 2</label><label><input type="radio" name="q13" value="3"> 3</label><label><input type="radio" name="q13" value="4"> 4</label><label><input type="radio" name="q13" value="5"> 5 (Strongly Agree)</label></div>
+      </div>
+    </div>
+
+    <div class="question-card" data-qid="14">
+      <div class="q-title"><span class="q-num">Q14</span> Training received</div>
+      <div class="did-you-know"><strong>🎓 Statement:</strong> “My company has received cybersecurity training in the last 12 months.”</div>
+      <div class="likert-grid"><div style="display: flex; gap: 1rem; flex-wrap: wrap;"><label><input type="radio" name="q14" value="1"> 1</label><label><input type="radio" name="q14" value="2"> 2</label><label><input type="radio" name="q14" value="3"> 3</label><label><input type="radio" name="q14" value="4"> 4</label><label><input type="radio" name="q14" value="5"> 5 (Strongly Agree)</label></div></div>
+    </div>
+
+    <div class="question-card" data-qid="15">
+      <div class="q-title"><span class="q-num">Q15</span> Government guidance</div>
+      <div class="did-you-know"><strong>🇧🇸 Statement:</strong> “I believe the government of The Bahamas (e.g., CERT Bahamas) provides useful cybersecurity guidance for small businesses.”</div>
+      <div class="likert-grid"><div style="display: flex; gap: 1rem; flex-wrap: wrap;"><label><input type="radio" name="q15" value="1"> 1</label><label><input type="radio" name="q15" value="2"> 2</label><label><input type="radio" name="q15" value="3"> 3</label><label><input type="radio" name="q15" value="4"> 4</label><label><input type="radio" name="q15" value="5"> 5</label></div></div>
+    </div>
+
+    <button type="button" id="submitBtn">✅ See my results & security advice</button>
+  </form>
+
+  <div id="resultPanel" class="result-area"></div>
+  <footer>🇧🇸 Empowering Bahamian SMEs against cyber threats | This quiz is educational & anonymous</footer>
+</div>
+
+<script src="./js/script.js"></script>
+</body>
+</html>
